@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: lightgray; /* Light beige background */
+}
+
+.header {
+  background-color: gray; /* Blue header */
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header img {
+  height: 100px;
+}
+
+.bank-logo-small {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.bank-name {
+  flex-grow: 1;
+  text-align: center;
+}
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bank-image {
+  height: 400px;
+  padding-left: 600px;
+  margin-top: 30px;
+  margin-right: 400px;
+}
+
+/* .bank-image {
+  height: 400px;
+  padding-left: 700px;
+  margin-top: 1px;
+  margin-right: 5px;
+  margin-right: 400px;
+  text-align: right;
+} */
+.form {
+  margin-top: 10px;
+  margin-left: 160px;
+  float: left;
+  background-color: lightblue;
+}
+
+.form caption {
+  background-color: gray;
+}
+
+.footer {
+  background-color: darkgoldenrod; /* Blue footer */
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  /* margin-top: 1px; */
+}
+
+form {
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  max-width: 50%;
+  padding: 34px;
+  margin: left;
+}
+
+form {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+.bg {
+  width: 100%;
+  opacity: 1;
+  z-index: -1;
+  position: absolute;
+}
+.container h1 {
+  display: flex;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  text-align: left;
+  width: 200%;
+  padding: 8px;
+  margin: 7px auto;
+  font-size: 20px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  outline: none;
+  background-color: lightblue;
+  /* flex-direction: column; */
+}
+
+.btn {
+  text-align: left;
+  background-color: purple;
+  color: white;
+  padding: 8px 12px;
+  font-size: 20px;
+  border-radius: 14px;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.submitMsg {
+  color: green;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: lightyellow;
+  font-weight: 700;
+  /* margin-bottom: 1px; */
+}
+/* .box {
+  width: 50%;
+  background-color: skyblue;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+} */

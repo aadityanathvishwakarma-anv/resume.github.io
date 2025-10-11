@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: lightgray; /* Light beige background */
+}
+
+.header {
+  background-color: gray; /* Blue header */
+  color: #000000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header img {
+  height: 100px;
+}
+
+.bank-logo-small {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.bank-name {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  background-color: darkgoldenrod; /* Blue footer */
+  color: black;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
